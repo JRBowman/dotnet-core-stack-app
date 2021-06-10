@@ -19,7 +19,7 @@ components:
     memoryLimit: 512Mi
     endpoints:
       - name: hello-endpoint
-        port: 8080
+        port: 5000
     mountSources: true
     volumes:
       - name: nuget
