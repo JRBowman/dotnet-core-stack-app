@@ -18,8 +18,9 @@ components:
     image: 'registry.redhat.io/codeready-workspaces/stacks-dotnet-rhel8@sha256:ea77974b206c7d7abcad5cd32149f6bb669d3cf867135553af4d7dddd24ba9cf'
     memoryLimit: 512Mi
     endpoints:
-      - name: hello-endpoint
+      - name: main-endpoint
         port: 5000
+        protocol: http
     mountSources: true
     volumes:
       - name: nuget
