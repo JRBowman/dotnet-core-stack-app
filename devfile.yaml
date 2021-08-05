@@ -20,7 +20,6 @@ components:
     endpoints:
       - name: main-endpoint
         port: 5000
-        protocol: http
     mountSources: true
     volumes:
       - name: nuget
