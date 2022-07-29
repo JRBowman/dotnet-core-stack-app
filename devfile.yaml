@@ -1,11 +1,13 @@
 schemaVersion: 2.1.0
 metadata:
   name: dotnet-api-backend
+  namespace: justin-onbowman-com-codeready-z6tvx4
 projects:
   - git:
       remotes:
         origin: 'https://dev.azure.com/bowman-redhat/dotnet-core-stack-app/_git/dotnet-api'
     name: dotnet-api-backend
+    
     
 components:
   - container:
