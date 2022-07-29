@@ -6,6 +6,7 @@ projects:
       remotes:
         origin: 'https://dev.azure.com/bowman-redhat/dotnet-core-stack-app/_git/dotnet-api'
     name: dotnet-api-backend
+    
 components:
   - container:
       args:
